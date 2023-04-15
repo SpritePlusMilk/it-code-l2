@@ -11,4 +11,3 @@ class Password:
         for i in range(x):
             pword += str(chr(random.randint(33, 127)))
         return pword
-sas = Password(9)
